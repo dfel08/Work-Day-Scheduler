@@ -7,9 +7,9 @@ function hour9 () {
     var currentTime = moment().format("HH");
     if (currentTime < "09") {
         $("#9am").css("backgroundColor", "lime");
-    } else if (currentTime = "09") {
+    } else if (currentTime === "09") {
         $("#9am").css("backgroundColor", "lightgray");
-    } else {
+    } else if (currentTime > "09") {
         $("#9am").css("backgroundColor", "red");
     }      
 };
@@ -18,7 +18,7 @@ function hour10 () {
     var currentTime = moment().format("HH");
     if (currentTime < "10") {
         $("#10am").css("backgroundColor", "lime");
-    } else if (currentTime = "10") {
+    } else if (currentTime === "10") {
         $("#10am").css("backgroundColor", "lightgray");
     } else {
         $("#10am").css("backgroundColor", "red");
@@ -91,7 +91,19 @@ function hour16 () {
     }      
 };
 
+$('.save').on('click', function(){
 
+    $('input[type="text"]').each(function(){    
+        var id = $(this).attr('id');
+        var value = $(this).val();
+       localStorage.setItem(id, value);
+    });
+});
+
+function readVal() {
+    var nineAm = localStorage.getItem("9am")
+    $("#9am").val(nineAm)
+}
 
 hour9();
 hour10();
@@ -101,3 +113,4 @@ hour13();
 hour14();
 hour15();
 hour16();
+readVal();
