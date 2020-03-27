@@ -8,7 +8,7 @@ function hour9 () {
     if (currentTime < "09") {
         $("#9am").css("backgroundColor", "lime");
     } else if (currentTime = "09") {
-        $("#9am").css("backgroundColor", "gray");
+        $("#9am").css("backgroundColor", "lightgray");
     } else {
         $("#9am").css("backgroundColor", "red");
     }      
@@ -19,7 +19,7 @@ function hour10 () {
     if (currentTime < "10") {
         $("#10am").css("backgroundColor", "lime");
     } else if (currentTime = "10") {
-        $("#10am").css("backgroundColor", "gray");
+        $("#10am").css("backgroundColor", "lightgray");
     } else {
         $("#10am").css("backgroundColor", "red");
     }      
@@ -30,7 +30,7 @@ function hour11 () {
     if (currentTime < "11") {
         $("#11am").css("backgroundColor", "lime");
     } else if (currentTime = "11") {
-        $("#11am").css("backgroundColor", "gray");
+        $("#11am").css("backgroundColor", "lightgray");
     } else {
         $("#11am").css("backgroundColor", "red");
     }      
@@ -41,7 +41,7 @@ function hour12 () {
     if (currentTime < "12") {
         $("#12pm").css("backgroundColor", "lime");
     } else if (currentTime = "12") {
-        $("#12pm").css("backgroundColor", "gray");
+        $("#12pm").css("backgroundColor", "lightgray");
     } else {
         $("#12pm").css("backgroundColor", "red");
     }      
@@ -52,7 +52,7 @@ function hour13 () {
     if (currentTime < "13") {
         $("#1pm").css("backgroundColor", "lime");
     } else if (currentTime = "13") {
-        $("#1pm").css("backgroundColor", "gray");
+        $("#1pm").css("backgroundColor", "lightgray");
     } else {
         $("#1pm").css("backgroundColor", "red");
     }      
@@ -63,7 +63,7 @@ function hour14 () {
     if (currentTime < "14") {
         $("#2pm").css("backgroundColor", "lime");
     } else if (currentTime = "14") {
-        $("#2pm").css("backgroundColor", "gray");
+        $("#2pm").css("backgroundColor", "lightgray");
     } else {
         $("#2pm").css("backgroundColor", "red");
     }      
@@ -74,7 +74,7 @@ function hour15 () {
     if (currentTime < "15") {
         $("#3pm").css("backgroundColor", "lime");
     } else if (currentTime = "15") {
-        $("#3pm").css("backgroundColor", "gray");
+        $("#3pm").css("backgroundColor", "lightgray");
     } else {
         $("#3pm").css("backgroundColor", "red");
     }      
@@ -85,11 +85,13 @@ function hour16 () {
     if (currentTime < "16") {
         $("#4pm").css("backgroundColor", "lime");
     } else if (currentTime = "16") {
-        $("#4pm").css("backgroundColor", "gray");
+        $("#4pm").css("backgroundColor", "lightgray");
     } else {
         $("#4pm").css("backgroundColor", "red");
     }      
 };
+
+
 
 hour9();
 hour10();
