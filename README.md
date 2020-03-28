@@ -12,9 +12,9 @@ To install the software, you must have an up-to-date machine with the latest OS 
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
 The easiest way to install is to accept the terms of service, then install the program onto your hard drive where your computer suggests.
+
+Once Chrome is installed on your machine, proceed to open the webpage with your browser.
 
 ## Built With
 
