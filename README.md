@@ -1,6 +1,6 @@
 # Work-Day-Scheduler
 
-Fifth assignment for UC-Berkeley Extension Coding Bootcamp. This is an assignment to create a calendar webpage that changes color based on the time, and also saves the data entered when the page is refreshed.
+Fifth project while attending UC-Berkeley Extension Coding Bootcamp. This is a calendar webpage that changes color based on the time, and also saves the data entered when the page is refreshed.
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ Once Chrome is installed on your machine, proceed to open the webpage with your 
 
 [Contributors]
 
-* **BRAD DAVIS**
+* **NO CONTRIBUTORS**
 
 ## License
 
@@ -45,4 +45,4 @@ This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* Thanks to my mentor, David Kramer, and my family, who are a continuing source of support and inspiration.
+* Thanks to my mentor, David Kramer, and my family, who are a continuing source of support and inspiration. Thanks also to Brad Davis, who helped me when I got stuck in the process.
